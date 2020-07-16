@@ -6,8 +6,6 @@ Aramid fibers, such as Kevlar and Twaron, are of great interest due to their out
   Figure aboveillustrates the aramid fiber structure.
 </p>
 
-![Kevlar aramid fibre](https://github.com/AnkitMish/Kevlar-BayesOpt/blob/master/images/Figure1a.png)
-
 
 
 While aramid fibers display exceptional performance, their development and improvement have been historically empirical and based on trial and error. Recent investigations on the effect of defects on the performance of fibers have been instrumental in understanding intrinsic deformations and failure mechanisms. However, there is a startling lack of shock investigations on PPTA and aramid fibers. Since the main application of these fibers is in shock and impact
