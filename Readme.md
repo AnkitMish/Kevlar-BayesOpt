@@ -51,6 +51,22 @@ and maximum EI is computed for next structure.
   <br><br>
 </p>
 
+***
+
+We performed 40 Bayesian optimization runs to sample the input space and found several possible
+structures. The Gaussian process regression is fitted initially to ground truth values and augmented
+each step to include the new data point and newest evaluated values. The model converges to
+optimum in nearly 40 iterations as shown in figure S3 and successfully exploit as well as explore
+the function space.
+
+<p align="center">
+  <img src="https://github.com/AnkitMish/Kevlar-BayesOpt/blob/master/images/BayesianGlobalMinima.png">
+  <br><br>
+  <b>Bayesian optimization to find global minimum</b>
+  <br><br>
+</p>
+
+
 
 
 
