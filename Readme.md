@@ -30,7 +30,20 @@ Bayesian optimization (BO) optimizes a black box objective function which is typ
 to compute due to the amount of time required, monetary cost or an opportunity cost. This class of
 machine learning problem is suitable for solving problems in continuous domain of maximum 20
 dimensions. BO builds a surrogate model for the objective function and quantifies the uncertainty
-in the surrogate using gaussian process regression
+in the surrogate using gaussian process regression.
+
+We perform Bayesian optimization of smaller system consisting 224 atoms. Further, we only allow
+the chain as a whole to move in [010] and [001] direction while preserving the hydrogen-bond.
+These constraints allow us to reduce the phase space from 448 (224 atoms in [010] and [001]
+direction) to 8-dimensional space. The feasible set space in the present problem is define as a set
+of 8 tuple values . The polymer chains are allowed to displace {𝑦𝑖,𝑧𝑖} 𝑤ℎ𝑒𝑟𝑒 𝑖 = 1,2,3,4 ± 0.5𝑦𝑖
+, ± 0.5𝑧 in the y and z directions. In Bayesian optimization method, acquisition function selects 𝑖
+the next point to be search based on trade-off between exploration and exploitation. We use
+Expected improvement (EI) as acquisition function. After each iteration of BO, a new structure is
+created and minimized based on the suggestion. Each computed structure is added to the dataset
+and maximum EI is computed for next structure. 
+<br>
+Pseudo-code for Bayesian optimization process is given in table 1. 
 
 
 
