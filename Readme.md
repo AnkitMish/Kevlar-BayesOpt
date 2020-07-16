@@ -4,7 +4,7 @@ Aramid fibers, such as Kevlar and Twaron, are of great interest due to their out
 <p align="center">
   <img src="https://github.com/AnkitMish/Kevlar-BayesOpt/blob/master/images/Figure1a.png">
   <br><br>
-  <b>Illustration of Kevlar aramid Fibres</b>
+  <b>Figure above illustrates the Kevlar aramid Fibres</b>
   <br><br>
 </p>
 
@@ -14,4 +14,23 @@ While aramid fibers display exceptional performance, their development and impro
 protection, such studies are required for understanding the intrinsic stress release mechanisms of PPTA. Atomistic simulations are key to understanding shock damage microscopically and to enable atomistically informed continuum simulations. Recent simulations have highlighted the influence of defects, and the arrangement of chain structures, on the mechanical properties. Nevertheless, in order to understand the intrinsic ability of aramid fabrics to withstand shock loading, the response of its most basic constituent, PPTA crystals, needs to be investigated explicitly first. The shock response of the intricate bondhierarchy-stabilized PPTA structure can be modeled accurately by first-principles methods.
 
 ***
+However, the initial random search showed that the potential energy surface of the system is too flat, making it challenging to find a global minimum.
+
+<p align="center">
+  <img src="https://github.com/AnkitMish/Kevlar-BayesOpt/blob/master/images/Figure4a.png">
+  <br><br>
+  <b>Figure above shows the energy landscape as a function polymer chains’ displacement, which shows multiple minima.</b>
+  <br><br>
+</p>
+
+<br>
+Furthermore, computation on each structure is extremely costly. Thus, we employ Bayesian optimization technique to efficiently find the optimal solution. 
+
+Bayesian optimization (BO) optimizes a black box objective function which is typically expensive
+to compute due to the amount of time required, monetary cost or an opportunity cost. This class of
+machine learning problem is suitable for solving problems in continuous domain of maximum 20
+dimensions. BO builds a surrogate model for the objective function and quantifies the uncertainty
+in the surrogate using gaussian process regression
+
+
 
