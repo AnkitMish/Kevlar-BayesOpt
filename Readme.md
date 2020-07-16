@@ -3,8 +3,9 @@ Aramid fibers, such as Kevlar and Twaron, are of great interest due to their out
 
 <figure>
   <img src="https://github.com/AnkitMish/Kevlar-BayesOpt/blob/master/images/Figure1a.png">
-  <figcaption>Illustration of Kevlar aramid Fibres</figcaption>
+  <figcaption align="center">Illustration of Kevlar aramid Fibres</figcaption>
 </figure>
+
 
 
 
