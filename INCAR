@@ -1,0 +1,42 @@
+SYSTEM = KEVLAR
+ISTART = 0 ! 0 - From scratch, 1 - Continued Work
+ICHARG = 2 !! 2 - From POTCAR, 1 - From CHGCAR, 0 - From WAVECAR, +10 for non selfconsistency
+
+IBRION = 2
+NSW = 10000
+!!SMASS = 0
+!!NBLOCK = 1
+!!TEBEG = 10
+!!TEEND = 100
+
+!!! General parameters 
+!METAGGA=SCAN
+!!! vdW parameters
+!IVDW = 11                ! 0 - None, 11 - D3_Grimme, 12 - D3_BJ, 20 - TS
+!ISPIN = 1
+ISIF = 2
+NELMDL	=	-5	if ISTART=0, INIWAV=1, and IALGO=8
+NELMDL	=	-12
+
+PREC  =	high
+
+!!! DOS parameters 
+
+!!! Parallelization parameters
+NCORE = 8
+!LPLANE = .FALSE. 
+LREAL = Auto
+!--------------------------------- Electronic and Ionic Relaxation -----------!
+!!! Electronic relaxation
+NELM = 200               ! Maximum electronic relaxation steps
+MAXMIX = 40
+EDIFF = 1E-6
+ALGO = FAST
+EDIFFG = 1E-8
+!------------------------------------------DOS parameter ----------------------!
+SIGMA = 0.1  
+ISYM =  0     
+!--------------------------------------- Output Specification --------------------!
+LWAVE = .TRUE.
+LCHARG = .TRUE.
+NWRITE = 3
