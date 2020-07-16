@@ -2,6 +2,7 @@
 Aramid fibers, such as Kevlar and Twaron, are of great interest due to their outstanding ratio of strength per weight and thermal resistance. There are numerous applications of these fibers that include bulletproof vests and helmets, turbine engine fragment, containment structures, cut resistant gloves, etc. Compositional and structural studies of aramid fibers suggest that these materials derive their exceptional properties from crystalline domains of poly(p-phenylene terephthalamide) (PPTA) polymers, highly oriented along the fiber axis.  
 
 ![Kevlar aramid fibre](https://github.com/AnkitMish/Kevlar-BayesOpt/blob/master/images/Figure1a.png)
+
 Figure aboveillustrates the aramid fiber structure. 
 
 While aramid fibers display exceptional performance, their development and improvement have been historically empirical and based on trial and error. Recent investigations on the effect of defects on the performance of fibers have been instrumental in understanding intrinsic deformations and failure mechanisms. However, there is a startling lack of shock investigations on PPTA and aramid fibers. Since the main application of these fibers is in shock and impact
